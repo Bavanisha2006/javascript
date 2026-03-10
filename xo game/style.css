@@ -1,0 +1,27 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h1{
+    color: rgb(40, 68, 166);
+}
+.container{
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.inner-box{
+    height:120px;
+    width:120px;
+    border:1px solid black;
+    display:flex;
+    font-size:20px;
+}
